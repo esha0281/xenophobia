@@ -30,7 +30,9 @@ const getResultStatement = (bias, test) => {
         <p className="result-headline">
           Your responses suggest no automatic association between <span className="target">{targetType}
           </span> and <span className="category">{categoryType}</span>.
+          
         </p>
+        
       )
     case BIAS.COMPATIBLE:
       return (
@@ -53,6 +55,7 @@ const getResultStatement = (bias, test) => {
           </span> and <span className="target">{toTitleCase(targetsInIncompatibleOrder[1])}
           </span> with <span className="category">{toTitleCase(secondCategory)}
           </span>.
+          
         </h4>
       )
     default:

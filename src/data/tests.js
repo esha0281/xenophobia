@@ -3,10 +3,10 @@
 const tests = [
   {
     id: 'power-happiness',
-    name: 'Power happiness bias test',
-    description: 'Find bias between power and happiness level.',
-    targetType: 'power',
-    categoryType: 'happiness',
+    name: 'African test',
+    description: '',
+    targetType: 'nationality',
+    categoryType: 'type of person',
     compatible: {
       'south_african': 'good_person',
       'african': 'bad_person'
