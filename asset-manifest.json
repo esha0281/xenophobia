@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/xenophobia/static/css/main.998d4886.chunk.css",
+    "main.js": "/xenophobia/static/js/main.70f2c574.chunk.js",
+    "main.js.map": "/xenophobia/static/js/main.70f2c574.chunk.js.map",
+    "runtime-main.js": "/xenophobia/static/js/runtime-main.af948cca.js",
+    "runtime-main.js.map": "/xenophobia/static/js/runtime-main.af948cca.js.map",
+    "static/js/2.14dc5bb6.chunk.js": "/xenophobia/static/js/2.14dc5bb6.chunk.js",
+    "static/js/2.14dc5bb6.chunk.js.map": "/xenophobia/static/js/2.14dc5bb6.chunk.js.map",
+    "index.html": "/xenophobia/index.html",
+    "precache-manifest.dd98cddf220e3994937589158479e4f5.js": "/xenophobia/precache-manifest.dd98cddf220e3994937589158479e4f5.js",
+    "service-worker.js": "/xenophobia/service-worker.js",
+    "static/css/main.998d4886.chunk.css.map": "/xenophobia/static/css/main.998d4886.chunk.css.map"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.af948cca.js",
+    "static/js/2.14dc5bb6.chunk.js",
+    "static/css/main.998d4886.chunk.css",
+    "static/js/main.70f2c574.chunk.js"
+  ]
+}
