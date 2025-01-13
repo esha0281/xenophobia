@@ -5,7 +5,9 @@
   "homepage": "https://codertea-1.github.io/Xenophobia/",
   "dependencies": {
     "connected-react-router": "^6.5.2",
+    "copy-webpack-plugin": "^12.0.2",
     "materialize-css": "^1.0.0",
+    "node-sass": "^4.13.1",
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "react-redux": "^7.1.3",
@@ -14,7 +16,8 @@
     "react-scripts": "3.2.0",
     "redux": "^4.0.4",
     "redux-thunk": "^2.3.0",
-    "node-sass": "^4.13.1"
+    "typescript": "^5.7.3",
+    "gh-pages": "^5.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",
@@ -40,7 +43,7 @@
     ]
   },
   "devDependencies": {
-    "gh-pages": "^6.3.0",
+    "gh-pages": "^5.0.0",
     "node-sass": "^4.13.1"
   },
   "engines": {
