@@ -40,7 +40,6 @@ jobs:
     #- run: npm test
     - name: Deploy with gh-pages
       run: |
-        git remote set-url origin https://https://github.com/CoderTea-1/Xenophobia.git
         npm run deploy
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
