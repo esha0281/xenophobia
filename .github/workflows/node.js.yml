@@ -17,7 +17,7 @@ permissions:
   pages: write # to be able deploy to GitHub Pages
   pull-requests: write
   repository-projects: write
-  
+
 concurrency:
   group: github-pages
   cancel-in-progress: true
@@ -44,7 +44,7 @@ jobs:
     #- run: npm test
     - name: Deploy with gh-pages
       run: |
-        git clone git@github.com:CoderTea-1/Xenophobia.git
+        git remote set-url origin https://CoderTea-1/Xenophobia.git
         npm run deploy
       env:
         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
