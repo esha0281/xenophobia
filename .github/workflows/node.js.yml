@@ -27,6 +27,8 @@ jobs:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
     - run: npm ci
+    - run: nvm install 11.6.0
+    - run: nvm use 11.6.0
     - run: npm install
     - run: npm run build --if-present
     #- run: npm test
