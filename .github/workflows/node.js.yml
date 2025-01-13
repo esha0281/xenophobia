@@ -28,6 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.1/install.sh | bash
+    - run: source ~/.bashrc
     - run: nvm install 11.6.0
     - run: nvm use 11.6.0
     - run: npm install
