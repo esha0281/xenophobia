@@ -2,6 +2,7 @@
   "name": "implicit-bias",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://codertea-1.github.io/Xenophobia/",
   "dependencies": {
     "connected-react-router": "^6.5.2",
     "materialize-css": "^1.0.0",
@@ -16,6 +17,8 @@
     "node-sass": "^4.13.1"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -37,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^6.3.0",
     "node-sass": "^4.13.1"
   },
   "engines": {
