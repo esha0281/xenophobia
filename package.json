@@ -16,8 +16,6 @@
     "node-sass": "^4.13.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -42,6 +40,6 @@
     "node-sass": "^4.13.1"
   },
   "engines": {
-    "node": ">11.6.0"
+    "node": "11.6.0"
   }
 }
