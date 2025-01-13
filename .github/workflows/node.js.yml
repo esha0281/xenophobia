@@ -10,10 +10,14 @@ on:
     branches: [ "main" ]
 
 permissions:
-  contents: read # for accessing the repository contents
+  actions: write
+  checks: write
+  contents: write
   id-token: write # for verifying the deployment source
   pages: write # to be able deploy to GitHub Pages
-
+  pull-requests: write
+  repository-projects: write
+  
 concurrency:
   group: github-pages
   cancel-in-progress: true
@@ -43,5 +47,5 @@ jobs:
         git clone git@github.com:CoderTea-1/Xenophobia.git
         npm run deploy
       env:
-        GITHUB_TOKEN: ${{secrets.Erik}}
+        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 #git remote add origin https://CoderTea-1/Xenophobia.git
