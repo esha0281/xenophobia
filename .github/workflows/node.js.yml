@@ -32,6 +32,6 @@ jobs:
     - name: Deploy with gh-pages
       run: |
         npm run deploy
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      # env:
+      #   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 #git remote add origin https://CoderTea-1/Xenophobia.git
