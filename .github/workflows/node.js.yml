@@ -43,5 +43,5 @@ jobs:
         git clone git@github.com:CoderTea-1/Xenophobia.git
         npm run deploy
       env:
-        GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+        GITHUB_TOKEN: ${{secrets.Erik}}
 #git remote add origin https://CoderTea-1/Xenophobia.git
